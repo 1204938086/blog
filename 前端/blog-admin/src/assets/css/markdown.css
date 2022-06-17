@@ -1,0 +1,57 @@
+/* 引用 样式 */
+
+.markdown-blockquote {
+    background-color: #e8f4fd;
+    border-left: 3px solid #2196f3;
+    border-radius: 0.2em;
+    padding: 10px;
+    margin: 1em 0;
+}
+
+.markdown-linecode {
+    background-color: #f9f2f4;
+    color: #c7254e;
+    border-radius: 0.2em;
+    padding: 2px 4px;
+}
+
+.markdown-list {
+    position: relative;
+    left: 24px;
+    width: calc(100% - 45px);
+}
+
+.markdown-head {
+    color: #2196f3;
+}
+
+.tag {
+    display: inline;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.codebox {
+    background-color: #000;
+    line-height: 1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    overflow: auto;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    width: 95%;
+    max-width: 970px;
+}
+
+.markdown-table,
+.markdown-table th,
+.markdown-table td {
+    border: 1px solid #000;
+}
+
+.markdown-img {
+    max-width: 100%;
+}

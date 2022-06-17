@@ -1,0 +1,20 @@
+blog:
+  username: admin
+  password: admin
+  ttl-minutes: 10080
+
+server:
+  port: 80
+
+spring:
+  # 配置MongoDB数据库
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: blog
+
+  # 配置JSON对象为null时不再向前端发送
+#  jackson:
+#    default-property-inclusion: non_null
+
